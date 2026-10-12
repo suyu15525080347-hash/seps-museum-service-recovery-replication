@@ -1,0 +1,36 @@
+site,museum_group,role,city_frame,wikidata_qid,lat,lon,note
+British Museum,British Museum,anchor,London,Q6373,51.519444444,-0.126944444,
+Natural History Museum,Natural History Museum,anchor,London,Q309388,51.496111111,-0.176111111,
+Victoria and Albert Museum,Victoria and Albert Museum,anchor,London,Q213322,51.49685,-0.17162,
+Young V&A,Victoria and Albert Museum,other_site,London,Q644281,51.529055555,-0.054888888,reopened July 2023
+Science Museum,Science Museum Group,anchor,London,Q674773,51.4975,-0.174722222,
+Tate Britain,Tate Gallery,anchor,London,Q195436,51.491111111,-0.1275,Millbank (Tate head office)
+Tate Modern,Tate Gallery,other_site,London,Q193375,51.507777777,-0.099444444,
+Imperial War Museum London,Imperial War Museum,anchor,London,Q749808,51.495833333,-0.108611111,
+Churchill War Rooms,Imperial War Museum,other_site,London,Q1024854,51.50222,-0.1293,
+HMS Belfast,Imperial War Museum,other_site,London,Q757178,51.506666666,-0.081388888,
+National Maritime Museum,Royal Museums Greenwich,anchor,London,Q1199924,51.4811,-0.005556,
+Royal Observatory,Royal Museums Greenwich,other_site,London,Q192988,51.477833333,-0.001388888,
+Queen's House,Royal Museums Greenwich,other_site,London,Q564981,51.4812,-0.00378253,
+Cutty Sark,Royal Museums Greenwich,other_site,London,Q171255,51.482778,-0.009722,
+Horniman Museum and Gardens,Horniman Museum,anchor,London,Q1628487,51.440555555,-0.060833333,
+Sir John Soane's Museum,Sir John Soane's Museum,anchor,London,Q2060860,51.517102777,-0.116913888,
+National Gallery,National Gallery,context_not_in_core5,London,Q180788,51.508888888,-0.128333333,onsite U18 missing FY2020/21
+National Portrait Gallery,National Portrait Gallery,context_not_in_core5,London,Q238587,51.509444444,-0.128055555,closed for redevelopment 2020-2023
+Wallace Collection,Wallace Collection,context_not_in_core5,London,Q1327919,51.517454,-0.153022,no UK loan-venue series
+Museum of the Home,Museum of the Home,context_not_in_core5,London,Q2918086,51.531738888,-0.076219444,excluded from DCMS comparator (closure)
+Museum of Liverpool,National Museums Liverpool,anchor,Liverpool,Q6940928,53.4031,-2.9956,
+World Museum,National Museums Liverpool,other_site,Liverpool,Q980795,53.41,-2.981666666,
+Walker Art Gallery,National Museums Liverpool,other_site,Liverpool,Q1536471,53.410068,-2.979666,
+Merseyside Maritime Museum,National Museums Liverpool,other_site,Liverpool,Q12061716,53.401,-2.993,shares building with International Slavery Museum (Q6053221); closed from Jan 2025 for redevelopment
+Sudley House,National Museums Liverpool,other_site,Liverpool,Q1290927,53.3735,-2.9214,
+Lady Lever Art Gallery,National Museums Liverpool,other_site,Liverpool,Q1586957,53.35576,-2.99932,Port Sunlight (Wirral)
+Tate Liverpool,Tate Gallery,other_site,UK,Q517612,53.40075,-2.99445,dock building closed Oct 2023; gallery at RIBA North Mann Island
+Natural History Museum at Tring,Natural History Museum,other_site,UK,Q1788142,51.7908,-0.661368,
+National Railway Museum,Science Museum Group,other_site,UK,Q579958,53.9598,-1.09771,
+Science and Industry Museum,Science Museum Group,other_site,UK,Q2638616,53.4769,-2.25556,
+National Science and Media Museum,Science Museum Group,other_site,UK,Q3054692,53.790556,-1.755556,
+Locomotion,Science Museum Group,other_site,UK,Q3482098,54.6243,-1.6306,
+Imperial War Museum North,Imperial War Museum,other_site,UK,Q1393304,53.4697,-2.29889,
+Imperial War Museum Duxford,Imperial War Museum,other_site,UK,Q1758240,52.093055555,0.129444444,
+Tate St Ives,Tate Gallery,other_site,UK,Q2577210,50.214722,-5.484722,

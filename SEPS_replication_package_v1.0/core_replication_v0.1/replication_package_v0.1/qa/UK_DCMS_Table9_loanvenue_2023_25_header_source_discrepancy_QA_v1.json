@@ -1,0 +1,113 @@
+{
+  "source_table_title": "Table 9: Number of UK loan venues, split by museum 2008/09 - 2024/25 [Note 1]",
+  "literal_last_header": "2023/25",
+  "source_total_last_column": "1,078",
+  "sum_numeric_institution_rows_last_column": 1078.0,
+  "official_2024_25_headline_total_loan_venues": 1078,
+  "headliner_url": "https://www.gov.uk/government/statistics/dcms-sponsored-museums-and-galleries-annual-performance-indicators-202425/dcms-sponsored-museums-and-galleries-annual-performance-indicators-202425-headline-release",
+  "reconciliation": "The table title says 2008/09-2024/25, publication period is 2024/25, and headline reports 1,078 loan venues in 2024/25. Literal table header says 2023/25. Treat this as a source-internal header discrepancy. Do NOT rewrite original ODS. A derived field may label it 2024/25 only with this explicit audit provenance.",
+  "institution_rows": [
+    {
+      "source_name": "British Museum",
+      "source_header_literal": "2023/25",
+      "raw_value": "141",
+      "numeric": 141.0
+    },
+    {
+      "source_name": "Museum of the Home [Note 3]",
+      "source_header_literal": "2023/25",
+      "raw_value": "1",
+      "numeric": 1.0
+    },
+    {
+      "source_name": "Horniman Museum",
+      "source_header_literal": "2023/25",
+      "raw_value": "5",
+      "numeric": 5.0
+    },
+    {
+      "source_name": "Imperial War Museums",
+      "source_header_literal": "2023/25",
+      "raw_value": "31",
+      "numeric": 31.0
+    },
+    {
+      "source_name": "Museum of Science and Industry in Manchester [Note 4]",
+      "source_header_literal": "2023/25",
+      "raw_value": "x",
+      "numeric": null
+    },
+    {
+      "source_name": "National Gallery",
+      "source_header_literal": "2023/25",
+      "raw_value": "19",
+      "numeric": 19.0
+    },
+    {
+      "source_name": "National Museums Liverpool",
+      "source_header_literal": "2023/25",
+      "raw_value": "107",
+      "numeric": 107.0
+    },
+    {
+      "source_name": "National Portrait Gallery",
+      "source_header_literal": "2023/25",
+      "raw_value": "51",
+      "numeric": 51.0
+    },
+    {
+      "source_name": "Natural History Museum",
+      "source_header_literal": "2023/25",
+      "raw_value": "234",
+      "numeric": 234.0
+    },
+    {
+      "source_name": "Royal Armouries [Note 16]",
+      "source_header_literal": "2023/25",
+      "raw_value": "91",
+      "numeric": 91.0
+    },
+    {
+      "source_name": "Royal Museums Greenwich",
+      "source_header_literal": "2023/25",
+      "raw_value": "48",
+      "numeric": 48.0
+    },
+    {
+      "source_name": "Science Museum Group",
+      "source_header_literal": "2023/25",
+      "raw_value": "142",
+      "numeric": 142.0
+    },
+    {
+      "source_name": "Sir John Soane's Museum",
+      "source_header_literal": "2023/25",
+      "raw_value": "3",
+      "numeric": 3.0
+    },
+    {
+      "source_name": "Tate Gallery Group",
+      "source_header_literal": "2023/25",
+      "raw_value": "61",
+      "numeric": 61.0
+    },
+    {
+      "source_name": "Tyne and Wear Museums [Note 8]",
+      "source_header_literal": "2023/25",
+      "raw_value": "x",
+      "numeric": null
+    },
+    {
+      "source_name": "Victoria and Albert Museum [Note 9]",
+      "source_header_literal": "2023/25",
+      "raw_value": "144",
+      "numeric": 144.0
+    },
+    {
+      "source_name": "Wallace Collection [Note 20]",
+      "source_header_literal": "2023/25",
+      "raw_value": "x",
+      "numeric": null
+    }
+  ]
+}

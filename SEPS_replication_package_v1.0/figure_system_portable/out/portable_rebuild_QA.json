@@ -1,0 +1,80 @@
+{
+  "rebuild_passed": true,
+  "manifest": [
+    {
+      "file": "Figure1_city_atlas_multimission_recovery_v2.pdf",
+      "bytes": 1681511,
+      "sha256": "68dcc654d7e4a2254f261bf4c79a35bdd09ae0be316060271093531b3b136c69"
+    },
+    {
+      "file": "Figure1_city_atlas_multimission_recovery_v2.png",
+      "bytes": 4334897,
+      "sha256": "510bd3c8dddc86e2a70d2e1dd6d6668c5c1a8f1869f41bde5a70f3612ed58aeb"
+    },
+    {
+      "file": "Figure1_city_atlas_multimission_recovery_v2.svg",
+      "bytes": 7322130,
+      "sha256": "5d846468661a3a9de251ffe629c51f03ce2c12e833d4590c46708c1b6aea3ff5"
+    },
+    {
+      "file": "Figure2_equalweight_vs_weakest_mission_v2.pdf",
+      "bytes": 56545,
+      "sha256": "70d52257a37c6b04672977d6f2db48fefd0f8fec8ebf2a5553949598a77d9ed5"
+    },
+    {
+      "file": "Figure2_equalweight_vs_weakest_mission_v2.png",
+      "bytes": 945084,
+      "sha256": "79ee9c3c09d63d6f33e1081cfdf96ebfa0655db2c6da50fcb6680dd36b8b3591"
+    },
+    {
+      "file": "Figure2_equalweight_vs_weakest_mission_v2.svg",
+      "bytes": 128903,
+      "sha256": "264a34a0678cb5bdb74029865c5bc4d2278c8198dd7cc6f98360d4cba895e8a9"
+    },
+    {
+      "file": "Figure3_priority_dependence_states_v2.pdf",
+      "bytes": 51697,
+      "sha256": "e57b1dbe05e63303b9a9ab6bb0353a0ff5945d2bb03b9458429ec8e963c74e2f"
+    },
+    {
+      "file": "Figure3_priority_dependence_states_v2.png",
+      "bytes": 674608,
+      "sha256": "57fb50c0d4c47d1c5915926193e9532761fbb0959e6cea1074d1aa59dff86b29"
+    },
+    {
+      "file": "Figure3_priority_dependence_states_v2.svg",
+      "bytes": 212840,
+      "sha256": "9fd9d508436688e8305768747c108803508220cbccec46b135f73275824e9f83"
+    },
+    {
+      "file": "Figure4_long_run_mission_strips_v2.pdf",
+      "bytes": 72652,
+      "sha256": "5c1d542a0e074e1f70e0cee32b6130bd8fa23e5f5b8d41598abd84f712294909"
+    },
+    {
+      "file": "Figure4_long_run_mission_strips_v2.png",
+      "bytes": 1150772,
+      "sha256": "ee43c63e8d6c94a5013639c9c25e05166ecfdb75583c160bb32f28fcd09c4c31"
+    },
+    {
+      "file": "Figure4_long_run_mission_strips_v2.svg",
+      "bytes": 284520,
+      "sha256": "b8de46f03f6cd68cf6a4d19e21f5b009a5becbdc6ed6d7e77878b362e04a7dcd"
+    },
+    {
+      "file": "Figure5_mission_trajectories_and_normal_period_contrast_v2.pdf",
+      "bytes": 49494,
+      "sha256": "f6745a6bfeef0db4c37ad1ba72bbb6b7cfd8a610f0b9b92a2ad872b84028e082"
+    },
+    {
+      "file": "Figure5_mission_trajectories_and_normal_period_contrast_v2.png",
+      "bytes": 885669,
+      "sha256": "99d9ea6edad86ea3ba873ce87b14f3e321ad67e23e72731e74515bbbfbb9544b"
+    },
+    {
+      "file": "Figure5_mission_trajectories_and_normal_period_contrast_v2.svg",
+      "bytes": 97363,
+      "sha256": "12dea9e9f1a006bec9fe50e884e4e4dceb46a37b86f1c31c1297386ff75d3e7f"
+    }
+  ]
+}

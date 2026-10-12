@@ -1,0 +1,356 @@
+{
+ "PRIMARY_4to6y": {
+  "spec": "PRIMARY_4to6y",
+  "museums": [
+   "British Museum",
+   "Imperial War Museum",
+   "National Gallery",
+   "National Museums Liverpool",
+   "Natural History Museum",
+   "Royal Armouries",
+   "Royal Museums Greenwich",
+   "Science Museum Group",
+   "Tate Gallery",
+   "Victoria and Albert Museum",
+   "Wallace Collection"
+  ],
+  "normal": {
+   "museum_years": 33.0,
+   "museums": 11.0,
+   "mean_M": 0.1807,
+   "median_M": 0.1645,
+   "mean_E": 0.9154,
+   "mean_min": 0.7347,
+   "states90": {
+    "AMBER": 20,
+    "GREEN": 13,
+    "RED": 0
+   }
+  },
+  "late": {
+   "museum_years": 33.0,
+   "museums": 11.0,
+   "mean_M": 0.2149,
+   "median_M": 0.1927,
+   "mean_E": 0.7407,
+   "mean_min": 0.5259,
+   "states90": {
+    "AMBER": 15,
+    "GREEN": 4,
+    "RED": 14
+   }
+  },
+  "R_mean_late_over_normal": 1.189,
+  "museums_late_higher": 8,
+  "museums_total": 11,
+  "bottleneck_counts": {
+   "normal": {
+    "onsite_U18": 11,
+    "under16": 9,
+    "formal_education": 8,
+    "total_visits": 5
+   },
+   "late": {
+    "onsite_U18": 16,
+    "formal_education": 10,
+    "under16": 4,
+    "total_visits": 3
+   }
+  }
+ },
+ "S1_4to5y_base2013": {
+  "spec": "S1_4to5y_base2013",
+  "museums": [
+   "British Museum",
+   "Imperial War Museum",
+   "National Gallery",
+   "National Museums Liverpool",
+   "Natural History Museum",
+   "Royal Armouries",
+   "Royal Museums Greenwich",
+   "Science Museum Group",
+   "Sir John Soane's Museum",
+   "Tate Gallery",
+   "Victoria and Albert Museum",
+   "Wallace Collection"
+  ],
+  "normal": {
+   "museum_years": 24.0,
+   "museums": 12.0,
+   "mean_M": 0.1665,
+   "median_M": 0.1316,
+   "mean_E": 0.9071,
+   "mean_min": 0.7405,
+   "states90": {
+    "AMBER": 19,
+    "GREEN": 5,
+    "RED": 0
+   }
+  },
+  "late": {
+   "museum_years": 24.0,
+   "museums": 12.0,
+   "mean_M": 0.2205,
+   "median_M": 0.2012,
+   "mean_E": 0.7433,
+   "mean_min": 0.5228,
+   "states90": {
+    "AMBER": 12,
+    "GREEN": 2,
+    "RED": 10
+   }
+  },
+  "R_mean_late_over_normal": 1.324,
+  "museums_late_higher": 9,
+  "museums_total": 12,
+  "bottleneck_counts": {
+   "normal": {
+    "onsite_U18": 7,
+    "total_visits": 6,
+    "formal_education": 6,
+    "under16": 5
+   },
+   "late": {
+    "onsite_U18": 11,
+    "formal_education": 9,
+    "total_visits": 2,
+    "under16": 2
+   }
+  }
+ },
+ "S2_primary_incl_flagged": {
+  "spec": "S2_primary_incl_flagged",
+  "museums": [
+   "British Museum",
+   "Horniman Museum",
+   "Imperial War Museum",
+   "National Gallery",
+   "National Museums Liverpool",
+   "Natural History Museum",
+   "Royal Armouries",
+   "Royal Museums Greenwich",
+   "Science Museum Group",
+   "Sir John Soane's Museum",
+   "Tate Gallery",
+   "Victoria and Albert Museum",
+   "Wallace Collection"
+  ],
+  "normal": {
+   "museum_years": 39.0,
+   "museums": 13.0,
+   "mean_M": 0.1865,
+   "median_M": 0.1645,
+   "mean_E": 0.9155,
+   "mean_min": 0.729,
+   "states90": {
+    "AMBER": 25,
+    "GREEN": 14,
+    "RED": 0
+   }
+  },
+  "late": {
+   "museum_years": 39.0,
+   "museums": 13.0,
+   "mean_M": 0.2223,
+   "median_M": 0.1927,
+   "mean_E": 0.7547,
+   "mean_min": 0.5324,
+   "states90": {
+    "AMBER": 18,
+    "GREEN": 5,
+    "RED": 16
+   }
+  },
+  "R_mean_late_over_normal": 1.192,
+  "museums_late_higher": 9,
+  "museums_total": 13,
+  "bottleneck_counts": {
+   "normal": {
+    "onsite_U18": 14,
+    "under16": 12,
+    "formal_education": 8,
+    "total_visits": 5
+   },
+   "late": {
+    "onsite_U18": 19,
+    "formal_education": 11,
+    "under16": 5,
+    "total_visits": 4
+   }
+  }
+ },
+ "S3_short_1to2y_reference": {
+  "spec": "S3_short_1to2y_reference",
+  "museums": [
+   "British Museum",
+   "Imperial War Museum",
+   "National Gallery",
+   "National Museums Liverpool",
+   "Natural History Museum",
+   "Royal Armouries",
+   "Royal Museums Greenwich",
+   "Science Museum Group",
+   "Tate Gallery",
+   "Victoria and Albert Museum",
+   "Wallace Collection"
+  ],
+  "normal": {
+   "museum_years": 22.0,
+   "museums": 11.0,
+   "mean_M": 0.0711,
+   "median_M": 0.0681,
+   "mean_E": 0.9622,
+   "mean_min": 0.8911,
+   "states90": {
+    "AMBER": 11,
+    "GREEN": 11,
+    "RED": 0
+   }
+  },
+  "late": {
+   "museum_years": 33.0,
+   "museums": 11.0,
+   "mean_M": 0.2149,
+   "median_M": 0.1927,
+   "mean_E": 0.7407,
+   "mean_min": 0.5259,
+   "states90": {
+    "AMBER": 15,
+    "GREEN": 4,
+    "RED": 14
+   }
+  },
+  "R_mean_late_over_normal": 3.023,
+  "museums_late_higher": 9,
+  "museums_total": 11,
+  "bottleneck_counts": {
+   "normal": {
+    "formal_education": 10,
+    "total_visits": 4,
+    "onsite_U18": 4,
+    "under16": 4
+   },
+   "late": {
+    "onsite_U18": 16,
+    "formal_education": 10,
+    "under16": 4,
+    "total_visits": 3
+   }
+  }
+ },
+ "PRESPEC_decision": {
+  "R_primary": 1.189,
+  "verdict": "1.0<R<1.5: soften claim; part of original contrast reflects horizon"
+ },
+ "bottleneck_split_core5": {
+  "later_FY2022_23_to_2024_25": {
+   "UK_loan_venues": 9,
+   "formal_education": 7,
+   "onsite_U18": 12,
+   "total_visits": 1,
+   "under16": 1
+  },
+  "shutdown_FY2020_21_to_2021_22": {
+   "UK_loan_venues": 0,
+   "formal_education": 16,
+   "onsite_U18": 2,
+   "total_visits": 1,
+   "under16": 1
+  }
+ },
+ "bottleneck_split_core5_by_year": {
+  "2020": {
+   "UK_loan_venues": 0,
+   "formal_education": 9,
+   "onsite_U18": 0,
+   "total_visits": 0,
+   "under16": 1
+  },
+  "2021": {
+   "UK_loan_venues": 0,
+   "formal_education": 7,
+   "onsite_U18": 2,
+   "total_visits": 1,
+   "under16": 0
+  },
+  "2022": {
+   "UK_loan_venues": 3,
+   "formal_education": 2,
+   "onsite_U18": 4,
+   "total_visits": 1,
+   "under16": 0
+  },
+  "2023": {
+   "UK_loan_venues": 4,
+   "formal_education": 3,
+   "onsite_U18": 3,
+   "total_visits": 0,
+   "under16": 0
+  },
+  "2024": {
+   "UK_loan_venues": 2,
+   "formal_education": 2,
+   "onsite_U18": 5,
+   "total_visits": 0,
+   "under16": 1
+  }
+ },
+ "S4_POSTHOC_exclude_RA": {
+  "label": "S4_POSTHOC_exclude_Royal_Armouries",
+  "status": "post hoc; not pre-specified",
+  "reason": "Royal Armouries organised on-site U18: 244,665 (FY2015/16) -> 10,364 (FY2016/17), -95.8% in one year; total visits 1,944,414 -> 1,870,534 (-3.8%).",
+  "PRIMARY_4to6y": {
+   "late": {
+    "museum_years": 30,
+    "mean_M": 0.233,
+    "median_M": 0.2115,
+    "mean_weakest": 0.4867,
+    "states90": {
+     "AMBER": 14,
+     "RED": 14,
+     "GREEN": 2
+    }
+   },
+   "normal": {
+    "museum_years": 30,
+    "mean_M": 0.1283,
+    "median_M": 0.1027,
+    "mean_weakest": 0.8033,
+    "states90": {
+     "AMBER": 17,
+     "GREEN": 13
+    }
+   },
+   "R_mean": 1.816,
+   "R_median": 2.059,
+   "museums_late_higher": "8/10"
+  },
+  "S3_short_1to2y_reference": {
+   "late": {
+    "museum_years": 30,
+    "mean_M": 0.233,
+    "median_M": 0.2115,
+    "mean_weakest": 0.4867,
+    "states90": {
+     "AMBER": 14,
+     "RED": 14,
+     "GREEN": 2
+    }
+   },
+   "normal": {
+    "museum_years": 20,
+    "mean_M": 0.0736,
+    "median_M": 0.0727,
+    "mean_weakest": 0.8882,
+    "states90": {
+     "GREEN": 10,
+     "AMBER": 10
+    }
+   },
+   "R_mean": 3.166,
+   "R_median": 2.909,
+   "museums_late_higher": "9/10"
+  },
+  "PRIMARY_median_R_all_11": 1.171
+ }
+}

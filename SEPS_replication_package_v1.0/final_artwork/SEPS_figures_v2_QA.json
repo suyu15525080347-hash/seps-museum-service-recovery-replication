@@ -1,0 +1,76 @@
+{
+  "built_date": "2026-10-10",
+  "frozen_value_assertions_passed": true,
+  "scientific_content_changed": false,
+  "font_rule": "ordinary text >=7 pt at source figure size; math subscripts >=6 pt equivalent",
+  "figure_manifest": {
+    "Figure 1": {
+      "physical_size_mm": [
+        190,
+        225
+      ],
+      "ordinary_text_source_min_pt": 7.0,
+      "svg_min_rendered_font_equivalent": 7.0,
+      "math_subscript_note": null,
+      "png_sha256": "510bd3c8dddc86e2a70d2e1dd6d6668c5c1a8f1869f41bde5a70f3612ed58aeb",
+      "svg_sha256": "c4401b24cffc2b5586f9b7d8ae8a17c70e08661946a2d00b22a7f3088e101fe4",
+      "pdf_sha256": "9b5967f328ae0135fef11af9c431becceca06400fb1ae3156bd6b6410e3f2542",
+      "script_sha256": "2ebdb375e2d37ab6bd82a6bf1fee51b9646505ba7a7fb888d548abde8186e865"
+    },
+    "Figure 2": {
+      "physical_size_mm": [
+        190,
+        118
+      ],
+      "ordinary_text_source_min_pt": 7.0,
+      "svg_min_rendered_font_equivalent": 6.3,
+      "math_subscript_note": "Minimum 6.3 occurs only in MathText subscript glyphs; parent axis label is 9 pt.",
+      "png_sha256": "79ee9c3c09d63d6f33e1081cfdf96ebfa0655db2c6da50fcb6680dd36b8b3591",
+      "svg_sha256": "e1f812f7e4c1148f9bc4e5eb20dee387ff93f99e9fa077a8afc493c6e2f16f86",
+      "pdf_sha256": "1eb244a298d7488268ef5ae3de1c09a87912a16818844f84bb4d5e93d6b8aa9f",
+      "script_sha256": "b5a24cd014267c906164acc11a31c2225517c6cbf953e64b9c09d7d5958f0b71"
+    },
+    "Figure 3": {
+      "physical_size_mm": [
+        190,
+        128
+      ],
+      "ordinary_text_source_min_pt": 7.0,
+      "svg_min_rendered_font_equivalent": 6.3,
+      "math_subscript_note": "Minimum 6.3 occurs only in MathText subscript glyphs; parent axis label is 9 pt.",
+      "png_sha256": "57fb50c0d4c47d1c5915926193e9532761fbb0959e6cea1074d1aa59dff86b29",
+      "svg_sha256": "d59152ba69b284772f2d92e2df006430664d5ab71193fd5b2ae98bd3c44a7450",
+      "pdf_sha256": "df393e480fda688d9f8a8f3e7cb72f1cc011abfe12393e637c199d5cd8e3fc90",
+      "script_sha256": "cafee247843fdc34e820677ca06b6ecf1df5e7a5167c529c9c8b64d4d4bbbe39"
+    },
+    "Figure 4": {
+      "physical_size_mm": [
+        190,
+        195
+      ],
+      "ordinary_text_source_min_pt": 7.0,
+      "svg_min_rendered_font_equivalent": 7.0,
+      "math_subscript_note": null,
+      "png_sha256": "ee43c63e8d6c94a5013639c9c25e05166ecfdb75583c160bb32f28fcd09c4c31",
+      "svg_sha256": "ef726dac6b2eff756b83bc21f53e307d4dccc7a288ef079878f03052c1a8f2b2",
+      "pdf_sha256": "bfe35d1953edb98b6b209793ed07316eede238074f15e19d4e5e9f05a6864420",
+      "script_sha256": "2e09a6353bd3dd0da001c5b821ef9a90aa582458d38e0e32b549730da4b8ab5e"
+    },
+    "Figure 5": {
+      "physical_size_mm": [
+        190,
+        102
+      ],
+      "ordinary_text_source_min_pt": 7.0,
+      "svg_min_rendered_font_equivalent": 7.0,
+      "math_subscript_note": null,
+      "png_sha256": "99d9ea6edad86ea3ba873ce87b14f3e321ad67e23e72731e74515bbbfbb9544b",
+      "svg_sha256": "468d5db6bd2e5f4386ec89711a4323abc8fe8d77bf64864bea00fa64c042df30",
+      "pdf_sha256": "038beccf05b8603d6f4c0662488f57e29be0fcf09f0ca1a29bc70be86e15949c",
+      "script_sha256": "ce76726eccf1c761c9f283fb750bef2944431e8be5144dd92babced7a8d9aa11"
+    }
+  },
+  "figure3_primary_counts": "tau=.90 eps=0: 23 RED / 25 AMBER / 2 GREEN",
+  "figure3_final_visual_qa": "PASS; top legend reflowed to three rows/two columns, no run-together text",
+  "geography_sources": "GLA ArcGIS borough/boundary/Thames; ONS Dec 2024 boundaries; OpenStreetMap; Wikidata P625 site coordinates"
+}

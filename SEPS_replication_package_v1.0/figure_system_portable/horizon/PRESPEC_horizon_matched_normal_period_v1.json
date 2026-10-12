@@ -1,0 +1,25 @@
+{
+ "title": "Horizon-matched normal-period comparison for multi-mission masking (pre-specification, written before any computation)",
+ "written_local_time": "2026-10-09 23:15 +09:00",
+ "reason": "Reviewer-risk check: the frozen normal-period comparison measures outcomes 1-2 years after its baseline (FY2016/17 -> FY2017/18-2018/19) while late recovery measures 4-6 years after (FY2018/19 -> FY2022/23-2024/25). Masking may grow with horizon alone. This check equalises the horizon.",
+ "missions": ["total_visits", "under16", "formal_education", "onsite_U18"],
+ "missions_note": "UK loan venues excluded: DCMS Note 19 states pre-2016/17 loan-venue figures are not comparable.",
+ "primary": {
+  "normal_window": {"baseline_FY": "2012/13", "outcomes_FY": ["2016/17", "2017/18", "2018/19"], "years_after_baseline": [4, 5, 6]},
+  "late_window": {"baseline_FY": "2018/19", "outcomes_FY": ["2022/23", "2023/24", "2024/25"], "years_after_baseline": [4, 5, 6]},
+  "cohort_rule": "Museum groups with numeric positive baselines and numeric outcomes for all four missions in both windows; Museum of the Home excluded (DCMS comparator convention); groups with documented baseline-year definition differences excluded: Horniman and National Portrait Gallery (Note 15, formal education under-16 in 2012/13-2013/14) and Sir John Soane's Museum (Note 17, 2012/13).",
+  "metric": "capped attainment a=min(Y/B,1); equal-weight E=mean_k a; masking M=E-min_k a; summarise mean and median over museum-years; set-valued state at tau=0.90 with epsilon=0 (GREEN if min>=tau, RED if max<tau, else AMBER)"
+ },
+ "decision_rule": {
+  "R": "mean M (late, 4-6y) / mean M (normal, 4-6y), same cohort",
+  "R >= 1.5": "retain the claim that late-recovery divergence exceeds normal drift; replace 'nearly double' with the horizon-matched figures",
+  "1.0 < R < 1.5": "soften: late-recovery masking is larger, but part of the original contrast reflects horizon",
+  "R <= 1.0": "drop the 'nearly double' claim; report that the contrast is explained by horizon"
+ },
+ "sensitivity": {
+  "S1": "baseline FY2013/14 -> outcomes FY2017/18-2018/19 (4-5y) vs baseline FY2018/19 -> FY2022/23-2023/24 (4-5y); exclude Horniman and NPG",
+  "S2": "primary windows but retaining Horniman, NPG and Soane (definition-flagged)",
+  "S3": "short-horizon reference: four-mission version of the frozen normal check (FY2016/17 -> FY2017/18-2018/19) on the primary cohort"
+ },
+ "reporting": "All results reported regardless of direction; descriptive only, no significance tests; per-museum direction counts reported."
+}

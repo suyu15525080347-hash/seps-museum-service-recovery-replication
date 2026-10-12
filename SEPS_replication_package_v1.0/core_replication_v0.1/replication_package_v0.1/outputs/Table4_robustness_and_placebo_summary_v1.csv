@@ -1,0 +1,14 @@
+﻿robustness_family,variant,key_result,value,secondary
+leave-one-mission-out,all5,mean masking span,0.2299,mask90=4
+leave-one-mission-out,drop_total_visits,mean masking span,0.2264,mask90=6
+leave-one-mission-out,drop_under16,mean masking span,0.2205,mask90=5
+leave-one-mission-out,drop_formal_education,mean masking span,0.2124,mask90=6
+leave-one-mission-out,drop_onsite_U18,mean masking span,0.2015,mask90=3
+leave-one-mission-out,drop_UK_loan_venues,mean masking span,0.1754,mask90=4
+recovery cap,cap_1.00,mean masking span,0.2299,mask90=4
+recovery cap,cap_1.25,mean masking span,0.2533,mask90=7
+recovery cap,uncapped,mean masking span,0.318,mask90=9
+baseline,endpoint cell correspondence,Pearson correlation,0.9801,MAE=0.0204
+baseline,temporal AUC correspondence,Pearson correlation,0.9623,MAE=0.0225
+normal-period placebo,pre-COVID normal,mean masking span,0.1223,FY2017/18-2018/19
+normal-period placebo,late recovery,mean masking span,0.2168,FY2022/23-2024/25

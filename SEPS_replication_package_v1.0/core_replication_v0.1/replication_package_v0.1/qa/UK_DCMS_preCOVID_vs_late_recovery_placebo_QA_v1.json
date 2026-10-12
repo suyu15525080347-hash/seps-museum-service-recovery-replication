@@ -1,0 +1,44 @@
+{
+  "period_choice": "Pre-pandemic normal check uses FY2016/17 baseline with FY2017/18-FY2018/19 outcomes. Late recovery uses official FY2018/19 baseline with FY2022/23-FY2024/25 outcomes; shutdown FY2020/21-FY2021/22 intentionally omitted so comparison is not mechanically driven by closure.",
+  "common_complete_cohort": [
+    "British Museum",
+    "Horniman Museum",
+    "Imperial War Museum",
+    "National Gallery",
+    "National Museums Liverpool",
+    "Natural History Museum",
+    "Royal Armouries",
+    "Royal Museums Greenwich",
+    "Science Museum Group",
+    "Tate Gallery",
+    "Victoria and Albert Museum"
+  ],
+  "summary": {
+    "normal_preCOVID": {
+      "museum_years": 22,
+      "museums": 11,
+      "mean_equalweight_masking_span": 0.1223,
+      "median_equalweight_masking_span": 0.1169,
+      "mean_visitor_masking_span": 0.1508,
+      "state90": {
+        "RED": 0,
+        "AMBER": 15,
+        "GREEN": 7
+      }
+    },
+    "late_recovery": {
+      "museum_years": 33,
+      "museums": 11,
+      "mean_equalweight_masking_span": 0.2168,
+      "median_equalweight_masking_span": 0.1862,
+      "mean_visitor_masking_span": 0.2744,
+      "state90": {
+        "RED": 12,
+        "AMBER": 17,
+        "GREEN": 4
+      }
+    }
+  },
+  "interpretation": "If late-recovery masking remains materially larger than normal-period masking in the same museums, multi-mission divergence is more than a generic property of any annual comparison. This is descriptive, not a statistical treatment effect.",
+  "not_significance_selected": true
+}

@@ -1,0 +1,26 @@
+{
+  "page_url": "https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-september-2026-quarterly-national-accounts",
+  "xlsx_url": "https://assets.publishing.service.gov.uk/media/6abe277f26660e5f62a7f1e9/GDP_Deflators_Qtrly_National_Accounts_September_2026.xlsx",
+  "bytes": 38021,
+  "sha256": "1d3d8489fe41d9c0890d0c24fdbe36232860666adf715c77b63eee3735ab6968",
+  "latest_deflators": {
+    "2018-19": 76.2884,
+    "2024-25": 96.757,
+    "2025-26": 100.0
+  },
+  "old_June2026_deflators": {
+    "2018-19": 76.1639,
+    "2024-25": 96.6694,
+    "2025-26": 100.0
+  },
+  "deflator_revision_pct": {
+    "2018-19": 0.163463,
+    "2024-25": 0.090618,
+    "2025-26": 0.0
+  },
+  "source_comparable_14museum_real_GIA_2024_25_vs_2018_19_ratio_latest": 1.150174,
+  "old_manuscript_ratio_from_June_vintage": 1.1493,
+  "ratio_revision": 0.000874,
+  "median_museum_real_GIA_ratio_latest": 1.060463,
+  "decision": "All manuscript real-GIA values must use latest September 2026 HMT vintage as of current date. Service-output recovery metrics unaffected."
+}

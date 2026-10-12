@@ -1,0 +1,206 @@
+{
+  "model": "Exact admissible-weight score envelope for capped mission recovery attainments. W_epsilon={w_k>=epsilon, sum w=1}. Equal-weight and visitor-only are benchmark summaries, not ground truth.",
+  "weight_floors": [
+    0.0,
+    0.05,
+    0.1
+  ],
+  "thresholds": [
+    0.75,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "threshold_free_key": "For any pass threshold tau between worst_mission and equal_weight score, equal-weight declares pass while at least one mission does not. Span=equal_weight-min mission exactly measures this masking threshold interval without selecting tau.",
+  "threshold_grid_key": "0.75/0.80/0.90/1.00 are transparent sensitivity thresholds, not empirically optimized cutoffs. Primary claim should use threshold-free spans and complete mission vectors.",
+  "state_def": "GREEN iff every admissible weighted score >= threshold; RED iff every admissible weighted score < threshold; AMBER otherwise. Under epsilon=0, lower=min mission and upper=max mission.",
+  "no_accuracy_claim": "There is no externally adjudicated true early-warning label in the DCMS source. Therefore results measure aggregation information loss/stability, NOT predictive accuracy, false-negative rate, sensitivity or specificity.",
+  "summary": {
+    "core4": {
+      "museum_years": 50,
+      "museums": 10,
+      "mean_equalweight_masking_span": 0.1754,
+      "median_equalweight_masking_span": 0.1563,
+      "mean_visitor_masking_span": 0.2225,
+      "median_visitor_masking_span": 0.2078,
+      "bottleneck_counts": {
+        "formal_education": 28,
+        "total_visits": 5,
+        "under16": 6,
+        "onsite_U18": 20
+      },
+      "mean_uncertainty_width_wfloor_0.00": 0.3077,
+      "median_equalweight_minus_lower_wfloor_0.00": 0.1563,
+      "mean_uncertainty_width_wfloor_0.05": 0.2461,
+      "median_equalweight_minus_lower_wfloor_0.05": 0.125,
+      "mean_uncertainty_width_wfloor_0.10": 0.1846,
+      "median_equalweight_minus_lower_wfloor_0.10": 0.0938,
+      "t0.75_equalweight_pass_count": 16,
+      "t0.75_allmissions_pass_count": 7,
+      "t0.75_equalweight_masking_count": 9,
+      "t0.75_visitor_masking_count": 15,
+      "t0.75_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 22,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 7,
+        "AMBER_WEIGHT_DEPENDENT": 21
+      },
+      "t0.75_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 23,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 9,
+        "AMBER_WEIGHT_DEPENDENT": 18
+      },
+      "t0.75_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 26,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 10,
+        "AMBER_WEIGHT_DEPENDENT": 14
+      },
+      "t0.80_equalweight_pass_count": 13,
+      "t0.80_allmissions_pass_count": 5,
+      "t0.80_equalweight_masking_count": 8,
+      "t0.80_visitor_masking_count": 13,
+      "t0.80_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 23,
+        "AMBER_WEIGHT_DEPENDENT": 22,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 5
+      },
+      "t0.80_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 27,
+        "AMBER_WEIGHT_DEPENDENT": 18,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 5
+      },
+      "t0.80_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 29,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 8,
+        "AMBER_WEIGHT_DEPENDENT": 13
+      },
+      "t0.90_equalweight_pass_count": 7,
+      "t0.90_allmissions_pass_count": 3,
+      "t0.90_equalweight_masking_count": 4,
+      "t0.90_visitor_masking_count": 9,
+      "t0.90_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 31,
+        "AMBER_WEIGHT_DEPENDENT": 16,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 3
+      },
+      "t0.90_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 32,
+        "AMBER_WEIGHT_DEPENDENT": 15,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 3
+      },
+      "t0.90_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 35,
+        "AMBER_WEIGHT_DEPENDENT": 11,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 4
+      },
+      "t1.00_equalweight_pass_count": 3,
+      "t1.00_allmissions_pass_count": 3,
+      "t1.00_equalweight_masking_count": 0,
+      "t1.00_visitor_masking_count": 4,
+      "t1.00_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 36,
+        "AMBER_WEIGHT_DEPENDENT": 11,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 3
+      },
+      "t1.00_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 47,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 3
+      },
+      "t1.00_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 47,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 3
+      }
+    },
+    "core5": {
+      "museum_years": 50,
+      "museums": 10,
+      "mean_equalweight_masking_span": 0.2299,
+      "median_equalweight_masking_span": 0.22,
+      "mean_visitor_masking_span": 0.2407,
+      "median_visitor_masking_span": 0.2447,
+      "bottleneck_counts": {
+        "formal_education": 23,
+        "total_visits": 2,
+        "UK_loan_venues": 9,
+        "onsite_U18": 14,
+        "under16": 2
+      },
+      "mean_uncertainty_width_wfloor_0.00": 0.5119,
+      "median_equalweight_minus_lower_wfloor_0.00": 0.22,
+      "mean_uncertainty_width_wfloor_0.05": 0.3839,
+      "median_equalweight_minus_lower_wfloor_0.05": 0.165,
+      "mean_uncertainty_width_wfloor_0.10": 0.256,
+      "median_equalweight_minus_lower_wfloor_0.10": 0.11,
+      "t0.75_equalweight_pass_count": 17,
+      "t0.75_allmissions_pass_count": 6,
+      "t0.75_equalweight_masking_count": 11,
+      "t0.75_visitor_masking_count": 16,
+      "t0.75_wfloor0.00_states": {
+        "AMBER_WEIGHT_DEPENDENT": 33,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 6,
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 11
+      },
+      "t0.75_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 16,
+        "AMBER_WEIGHT_DEPENDENT": 25,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 9
+      },
+      "t0.75_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 26,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 9,
+        "AMBER_WEIGHT_DEPENDENT": 15
+      },
+      "t0.80_equalweight_pass_count": 11,
+      "t0.80_allmissions_pass_count": 2,
+      "t0.80_equalweight_masking_count": 9,
+      "t0.80_visitor_masking_count": 16,
+      "t0.80_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 15,
+        "AMBER_WEIGHT_DEPENDENT": 33,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 2
+      },
+      "t0.80_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 22,
+        "AMBER_WEIGHT_DEPENDENT": 24,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 4
+      },
+      "t0.80_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 28,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 9,
+        "AMBER_WEIGHT_DEPENDENT": 13
+      },
+      "t0.90_equalweight_pass_count": 6,
+      "t0.90_allmissions_pass_count": 2,
+      "t0.90_equalweight_masking_count": 4,
+      "t0.90_visitor_masking_count": 10,
+      "t0.90_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 23,
+        "AMBER_WEIGHT_DEPENDENT": 25,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 2
+      },
+      "t0.90_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 31,
+        "AMBER_WEIGHT_DEPENDENT": 17,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 2
+      },
+      "t0.90_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 39,
+        "AMBER_WEIGHT_DEPENDENT": 9,
+        "GREEN_ALL_ADMISSIBLE_WEIGHTS": 2
+      },
+      "t1.00_equalweight_pass_count": 0,
+      "t1.00_allmissions_pass_count": 0,
+      "t1.00_equalweight_masking_count": 0,
+      "t1.00_visitor_masking_count": 7,
+      "t1.00_wfloor0.00_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 30,
+        "AMBER_WEIGHT_DEPENDENT": 20
+      },
+      "t1.00_wfloor0.05_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 50
+      },
+      "t1.00_wfloor0.10_states": {
+        "RED_ALL_ADMISSIBLE_WEIGHTS": 50
+      }
+    }
+  }
+}

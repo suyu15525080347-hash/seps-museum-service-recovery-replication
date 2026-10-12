@@ -1,0 +1,23 @@
+{
+ "n_museum_years": 50,
+ "mask_eq_mean": 0.2299,
+ "mask_eq_median": 0.22,
+ "mask_vis_mean": 0.2407,
+ "mask_vis_median": 0.2447,
+ "bottleneck_counts": {
+  "formal_education": 23,
+  "total_visits": 2,
+  "UK_loan_venues": 9,
+  "onsite_U18": 14,
+  "under16": 2
+ },
+ "states_t090": {
+  "AMBER": 25,
+  "RED": 23,
+  "GREEN": 2
+ },
+ "eq_pass_090": 6,
+ "all_pass_090": 2,
+ "realGIA_aggregate_14": 1.150174,
+ "realGIA_median_14": 1.060463
+}

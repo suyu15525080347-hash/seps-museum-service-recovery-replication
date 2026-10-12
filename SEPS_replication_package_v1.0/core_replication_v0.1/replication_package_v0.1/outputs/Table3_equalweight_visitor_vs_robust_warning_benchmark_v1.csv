@@ -1,0 +1,9 @@
+﻿dimension_set,threshold,museum_years,mean_equalweight_masking_span,mean_visitor_masking_span,equalweight_pass,all_missions_pass,equalweight_pass_but_not_all,visitor_pass_but_not_all,robust_RED,robust_AMBER,robust_GREEN
+core4,0.75,50,0.1754,0.2225,16,7,9,15,22,21,7
+core4,0.8,50,0.1754,0.2225,13,5,8,13,23,22,5
+core4,0.9,50,0.1754,0.2225,7,3,4,9,31,16,3
+core4,1.0,50,0.1754,0.2225,3,3,0,4,36,11,3
+core5,0.75,50,0.2299,0.2407,17,6,11,16,11,33,6
+core5,0.8,50,0.2299,0.2407,11,2,9,16,15,33,2
+core5,0.9,50,0.2299,0.2407,6,2,4,10,23,25,2
+core5,1.0,50,0.2299,0.2407,0,0,0,7,30,20,0

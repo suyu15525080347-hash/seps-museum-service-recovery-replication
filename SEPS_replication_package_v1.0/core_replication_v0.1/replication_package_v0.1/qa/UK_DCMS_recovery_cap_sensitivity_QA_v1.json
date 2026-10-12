@@ -1,0 +1,64 @@
+{
+  "variants": [
+    {
+      "variant": "cap_1.00",
+      "cap": 1.0,
+      "museum_years": 50,
+      "mean_equalweight_masking_span": 0.2299,
+      "median_equalweight_masking_span": 0.22,
+      "mean_visitor_masking_span": 0.2407,
+      "masking_cases_t090": 4,
+      "masking_cases_t080": 9,
+      "equalweight_pass_t090": 6,
+      "allmissions_pass_t090": 2,
+      "bottleneck_index_counts": {
+        "2": 23,
+        "0": 2,
+        "4": 9,
+        "3": 14,
+        "1": 2
+      }
+    },
+    {
+      "variant": "cap_1.25",
+      "cap": 1.25,
+      "museum_years": 50,
+      "mean_equalweight_masking_span": 0.2533,
+      "median_equalweight_masking_span": 0.2312,
+      "mean_visitor_masking_span": 0.2551,
+      "masking_cases_t090": 7,
+      "masking_cases_t080": 9,
+      "equalweight_pass_t090": 9,
+      "allmissions_pass_t090": 2,
+      "bottleneck_index_counts": {
+        "2": 23,
+        "0": 2,
+        "4": 9,
+        "3": 14,
+        "1": 2
+      }
+    },
+    {
+      "variant": "uncapped",
+      "cap": "none",
+      "museum_years": 50,
+      "mean_equalweight_masking_span": 0.318,
+      "median_equalweight_masking_span": 0.2365,
+      "mean_visitor_masking_span": 0.2551,
+      "masking_cases_t090": 9,
+      "masking_cases_t080": 10,
+      "equalweight_pass_t090": 11,
+      "allmissions_pass_t090": 2,
+      "bottleneck_index_counts": {
+        "2": 23,
+        "0": 2,
+        "4": 9,
+        "3": 14,
+        "1": 2
+      }
+    }
+  ],
+  "decision_rule": "Core masking result passes robustness if mean masking remains positive/material and tau=.90 pass-but-not-all cases do not disappear under cap1.25 and uncapped specifications.",
+  "primary_cap_rationale": "cap1.00 encodes restoration-to-baseline; surplus in one mission cannot compensate another mission shortfall.",
+  "uncapped_warning": "Uncapped equal weighting allows large over-recovery in one dimension to offset another shortfall and is therefore not preferred for a restoration objective."
+}

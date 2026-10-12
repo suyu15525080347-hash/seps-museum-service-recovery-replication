@@ -1,0 +1,26 @@
+{
+  "paired_complete_museums": 9,
+  "museum_names": [
+    "British Museum",
+    "Horniman Museum",
+    "Imperial War Museum",
+    "National Museums Liverpool",
+    "Natural History Museum",
+    "Royal Museums Greenwich",
+    "Science Museum Group",
+    "Tate Gallery",
+    "Victoria and Albert Museum"
+  ],
+  "baseline_A": "Official DCMS headline comparator FY2018/19.",
+  "baseline_B": "Sensitivity only: per-museum per-mission median of FY2016/17,FY2017/18,FY2018/19; chosen before looking at outcomes to reduce single-year baseline noise and remain after UK-loan comparability break.",
+  "endpoint_attainment_cell_Pearson": 0.9801,
+  "temporal_AUC_cell_Pearson": 0.9623,
+  "endpoint_mean_absolute_difference": 0.0204,
+  "temporal_AUC_mean_absolute_difference": 0.0225,
+  "status_change_cases": [],
+  "mean_endpoint_masking_official2018": 0.1783,
+  "mean_endpoint_masking_pre3median": 0.1833,
+  "mean_temporal_masking_official2018": 0.2078,
+  "mean_temporal_masking_pre3median": 0.1986,
+  "guardrail": "No baseline selected by fit or p-value. Official FY2018/19 remains primary; pre-3-year median is robustness only. Correlations describe source sensitivity, not predictive validation."
+}

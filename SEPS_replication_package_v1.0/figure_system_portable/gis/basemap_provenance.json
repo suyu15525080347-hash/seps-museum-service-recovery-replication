@@ -1,0 +1,86 @@
+{
+ "gla_london_borough.geojson": {
+  "url": "https://gis.london.gov.uk/arcgis/rest/services/apps/webmap_context_layer/MapServer/3/query?where=1%3D1&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+  "bytes": 1930810,
+  "sha256": "afae8624eb3cacf080dbe79176a4b8d7f90723e9daac852bf6f195a01eae7318",
+  "retrieved_utc": "2026-10-09T13:13:43Z"
+ },
+ "gla_boundary.geojson": {
+  "url": "https://gis.london.gov.uk/arcgis/rest/services/apps/webmap_context_layer/MapServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+  "bytes": 454307,
+  "sha256": "94356e16b71422d93bebcd15f491eb5a0bfe40822fd2460fe84071dea4fd2ddf",
+  "retrieved_utc": "2026-10-09T13:13:43Z"
+ },
+ "gla_river_thames.geojson": {
+  "url": "https://gis.london.gov.uk/arcgis/rest/services/apps/webmap_context_layer/MapServer/1/query?where=1%3D1&outFields=%2A&returnGeometry=true&f=geojson&outSR=4326",
+  "bytes": 259520,
+  "sha256": "aca6d401005525b9af7da150d39883873a494b3eb66258d968899e81b9a1fb90",
+  "retrieved_utc": "2026-10-09T13:13:45Z"
+ },
+ "ons_lad24_bfc_merseyside.geojson": {
+  "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Local_Authority_Districts_December_2024_Boundaries_UK_BFC/FeatureServer/0/query?where=LAD24NM+IN+%28%27Liverpool%27%2C%27Wirral%27%2C%27Sefton%27%2C%27Knowsley%27%2C%27St.+Helens%27%2C%27Halton%27%2C%27Cheshire+West+and+Chester%27%29&outFields=LAD24CD%2CLAD24NM&returnGeometry=true&f=geojson&outSR=4326",
+  "bytes": 2315580,
+  "sha256": "2e55594fc2aa7ab4dc9d39ed4fabaed16601d8ba19ca517a310339ab1401cb5f",
+  "retrieved_utc": "2026-10-09T13:14:09Z"
+ },
+ "ons_countries24_buc.geojson": {
+  "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Countries_December_2024_Boundaries_UK_BUC/FeatureServer/0/query?where=1%3D1&outFields=CTRY24CD%2CCTRY24NM&returnGeometry=true&f=geojson&outSR=4326",
+  "bytes": 484727,
+  "sha256": "9b7935af2e8aafff8a23ccb28d41354c4be5563f4cdb6b59553bcea63c5c3d8c",
+  "retrieved_utc": "2026-10-09T13:14:10Z"
+ },
+ "osm_london_roads.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary)$\"](51.418,-0.245,51.552,0.045););out geom;",
+  "bytes": 19275243,
+  "sha256": "5e6c83a82f81ec16ed50b1d353fe7d761d1f671697fd6a5dd34cf38d7640c22f",
+  "retrieved_utc": "2026-10-09T13:14:46Z"
+ },
+ "osm_london_parks.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"leisure\"~\"^(park|common|garden)$\"](51.418,-0.245,51.552,0.045);relation[\"leisure\"~\"^(park|common)$\"](51.418,-0.245,51.552,0.045);way[\"landuse\"~\"^(recreation_ground|cemetery|grass)$\"](51.418,-0.245,51.552,0.045););out geom;",
+  "bytes": 27153234,
+  "sha256": "d7ebf72b153840726879d9502cd1b9929a008d21dc8d035e96d60f5faf62a426",
+  "retrieved_utc": "2026-10-09T13:15:01Z"
+ },
+ "osm_london_water.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"natural\"=\"water\"](51.418,-0.245,51.552,0.045);relation[\"natural\"=\"water\"](51.418,-0.245,51.552,0.045);way[\"waterway\"=\"dock\"](51.418,-0.245,51.552,0.045););out geom;",
+  "bytes": 2178905,
+  "sha256": "db33ede95d618c809fd4084ae3b83d54847530495071971603b88ed64a2fe582",
+  "retrieved_utc": "2026-10-09T13:15:46Z"
+ },
+ "osm_london_rail.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"railway\"=\"rail\"][\"usage\"=\"main\"](51.418,-0.245,51.552,0.045););out geom;",
+  "bytes": 4610577,
+  "sha256": "992e587bb080d1b73f876701fc9c310e10c86e339ef812678c2c63f938264e74",
+  "retrieved_utc": "2026-10-09T13:16:24Z"
+ },
+ "osm_liverpool_roads.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary)$\"](53.34,-3.075,53.445,-2.905););out geom;",
+  "bytes": 2356372,
+  "sha256": "8705bea43222a1d6b4fd4b9adff9aced781d35b054bc6d507eeeedb21e631717",
+  "retrieved_utc": "2026-10-09T13:17:30Z"
+ },
+ "osm_liverpool_water.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"natural\"=\"water\"](53.34,-3.075,53.445,-2.905);relation[\"natural\"=\"water\"](53.34,-3.075,53.445,-2.905);way[\"waterway\"=\"dock\"](53.34,-3.075,53.445,-2.905););out geom;",
+  "bytes": 559067,
+  "sha256": "abe02553a01b0425109d1c17af4b6613a027bbb6373c97ddd43a602df8cc4c10",
+  "retrieved_utc": "2026-10-09T13:19:38Z"
+ },
+ "osm_liverpool_rail.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"railway\"=\"rail\"][\"usage\"=\"main\"](53.34,-3.075,53.445,-2.905););out geom;",
+  "bytes": 260058,
+  "sha256": "c85aea9c40285fc1ab26884de63157c76f7cddb654508d67963307a0729f7f38",
+  "retrieved_utc": "2026-10-09T13:19:47Z"
+ },
+ "osm_liverpool_coast.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:240];(way[\"natural\"=\"coastline\"](53.34,-3.075,53.445,-2.905););out geom;",
+  "bytes": 107425,
+  "sha256": "703dd9c9bed6e810638c36dacaaf1d87be840b292e848ba5f7b2d02b59babfbe",
+  "retrieved_utc": "2026-10-09T13:20:22Z"
+ },
+ "osm_liverpool_parks.json": {
+  "url": "https://overpass-api.de/api/interpreter :: [out:json][timeout:120];way[\"leisure\"=\"park\"](53.340,-3.075,53.445,-2.905);out geom;",
+  "bytes": 300717,
+  "sha256": "9817e31e30a049660a2ed690513a50ccc19b11589a4b7da282e8dd55f9f8e954",
+  "retrieved_utc": "2026-10-09T13:21:30Z"
+ }
+}
